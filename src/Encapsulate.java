@@ -11,7 +11,10 @@ public class Encapsulate {
 
 	}
 
-	static boolean MoznoStvority(String firstName, String lastname) {
+	static boolean MoznoStvority(String firstName, String lastname) { 
+		//MoznoStvority должен быть static (что бы проверить переменные
+		// до создания обекта класса ) Так как не статисеские методы не возможно вызвать 
+		// без создания обекта класса
 
 		return firstName.length() < 7;
 	}
